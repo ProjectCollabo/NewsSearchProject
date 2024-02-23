@@ -13,7 +13,7 @@
 
 .header {
   margin: auto;
-  margin-top: 130px;
+  margin-top: 150px;
   position: relative;
   display: flex;
   width: 600px;
@@ -39,4 +39,72 @@
   background-color: transparent;
   border: none;
   outline: none;
+}
+
+.body h2 {
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.bodyline hr {
+  width: 97%;
+  margin: 20px;
+  border: none;
+  border-top: 5px solid black;
+}
+
+.news {
+  display: flex;
+}
+
+.photo {
+  margin-left: 25px;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+
+.titlegroup p {
+  display: flex;
+  flex-direction: column;
+  margin-top: 17px;
+  width: 350px;
+  word-break: break-all;
+  line-height: 2;
+}
+
+.title {
+  padding: 3px;
+  margin-bottom: 7px;
+  background-color: lavenderblush;
+}
+
+.titlegroup h3 {
+  text-align: right;
+  padding-right: 5px;
+  margin-top: 20px;
+}
+
+.newsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  margin-bottom: 70px;
+}
+
+.scrollButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.scrollButtonIcon {
+  color: #000000;
+  font-size: 20px;
 }
